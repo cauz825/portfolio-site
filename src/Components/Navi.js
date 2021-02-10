@@ -8,13 +8,12 @@ function Navi() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
-                <Nav.Link href="#home">Home</Nav.Link>
-                <Nav.Link href="#link">Resume</Nav.Link>
+                <Nav.Link href="/home">Home</Nav.Link>
+                <Nav.Link href="/resume">Resume</Nav.Link>
+                <Nav.Link href="/about">About Michael</Nav.Link>
                 <NavDropdown title="Contact Michael" id="basic-nav-dropdown">
-                    <NavDropdown.Item href="#action/3.1">Email</NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.2">LinkedIn</NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+                    <NavDropdown.Item href="mailto:michaelhcausey@gmail.com">Email</NavDropdown.Item>
+                    <NavDropdown.Item href="https://www.linkedin.com/in/michaelhcausey/">LinkedIn</NavDropdown.Item>
                 </NavDropdown>
                 </Nav>
             </Navbar.Collapse>
