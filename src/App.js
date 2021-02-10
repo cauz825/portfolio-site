@@ -6,7 +6,7 @@ function App() {
   return (
     <div>
       <Navi />
-      <HomeCarousel />
+      {/* <HomeCarousel /> */}
     </div>
   );
 }

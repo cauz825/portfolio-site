@@ -7,7 +7,7 @@ function HomeCarousel() {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="https://a.espncdn.com/i/teamlogos/nfl/500/lac.png"
+      src="d-block w-100"
       alt="First slide"
     />
     <Carousel.Caption>
