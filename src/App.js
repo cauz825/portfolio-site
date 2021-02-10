@@ -13,8 +13,6 @@ function App() {
           <Route path="/home" component={HomeCarousel} />
           <Route path="/resume" component={Resume} />
           <Route path="/about" component={About} />
-          {/* <Route path="/email" component={Email} /> */}
-          {/* <Route path="linkedin" component={LinkedIn} /> */}
       </div>
     </BrowserRouter>
   );
