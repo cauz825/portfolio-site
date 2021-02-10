@@ -7,7 +7,7 @@ function Navi() {
             <Navbar.Brand href="/home">Michael Causey</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="mr-auto">
+                <Nav className="container-fluid">
                 <Nav.Link href="/home">Home</Nav.Link>
                 <Nav.Link href="/resume">Resume</Nav.Link>
                 <Nav.Link href="/about">About Michael</Nav.Link>
@@ -15,7 +15,7 @@ function Navi() {
                     <NavDropdown.Item href="https://www.youtube.com/watch?v=upTcsAW4w1k">What's For Dinner</NavDropdown.Item>
                     <NavDropdown.Item href="https://www.youtube.com/watch?v=ZUdY9dsR8FI">Veni Vidi Vici</NavDropdown.Item>
                 </NavDropdown>
-                <NavDropdown title="Contact Michael" id="basic-nav-dropdown">
+                <NavDropdown title="Contact Michael" id="basic-nav-dropdown" className='ml-auto'>
                     <NavDropdown.Item href="mailto:michaelhcausey@gmail.com">Email</NavDropdown.Item>
                     <NavDropdown.Item href="https://www.linkedin.com/in/michaelhcausey/">LinkedIn</NavDropdown.Item>
                     <NavDropdown.Item href="https://github.com/cauz825">GitHub</NavDropdown.Item>

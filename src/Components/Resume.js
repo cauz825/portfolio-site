@@ -1,11 +1,13 @@
-import React from 'react'
-import resume from '../Images/resume.jpg'
+import React from 'react';
+import { Document } from 'react-pdf';
+import ResumeImg from '../Images/resume.jpg'
 
 function Resume() {
     return (
-       <div>
-           <img src={resume} alt='Resume'></img>
-       </div>
+        <div>
+            <center><img src={ResumeImg} alt='' /></center>
+            <Document file='src/Images/resume.pdf' />
+        </div>
     )
 }
 
