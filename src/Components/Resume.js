@@ -1,10 +1,11 @@
 import React from 'react'
+import resume from '../Images/resume.jpg'
 
 function Resume() {
     return (
-       <div>Resume Image</div>
-
-       //img path: src/Images/resume.jpg
+       <div>
+           <img src={resume} alt='Resume'></img>
+       </div>
     )
 }
 

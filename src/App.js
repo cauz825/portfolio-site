@@ -19,3 +19,8 @@ function App() {
 }
 
 export default App;
+
+//To-Do List
+// -Fix Carousel
+// -Display Resume
+// -Generate About Page
