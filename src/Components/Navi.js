@@ -13,12 +13,8 @@ function Navi() {
                 <Nav.Link href="/about">About Michael</Nav.Link>
                 <NavDropdown title='Project Demos' id='basic-nav-dropdown'>
                     <NavDropdown.Item href="/demo1">What's For Dinner</NavDropdown.Item>
+                    <NavDropdown.Item href='/demo2'>Veni Vidi Vici</NavDropdown.Item>
                 </NavDropdown>
-
-                {/* <NavDropdown title="Project Demos" id="basic-nav-dropdown">
-                    <NavDropdown.Item href="https://www.youtube.com/watch?v=upTcsAW4w1k">What's For Dinner</NavDropdown.Item>
-                    <NavDropdown.Item href="https://www.youtube.com/watch?v=ZUdY9dsR8FI">Veni Vidi Vici</NavDropdown.Item>
-                </NavDropdown> */}
                 <NavDropdown title="Contact Michael" id="basic-nav-dropdown" className='ml-auto'>
                     <NavDropdown.Item href="mailto:michaelhcausey@gmail.com">Email</NavDropdown.Item>
                     <NavDropdown.Item href="https://www.linkedin.com/in/michaelhcausey/">LinkedIn</NavDropdown.Item>
