@@ -16,9 +16,9 @@ function Navi() {
                     <NavDropdown.Item href='/demo2'>Veni Vidi Vici</NavDropdown.Item>
                 </NavDropdown>
                 <NavDropdown title="Contact Michael" id="basic-nav-dropdown" className='ml-auto'>
-                    <NavDropdown.Item href="mailto:michaelhcausey@gmail.com">Email</NavDropdown.Item>
-                    <NavDropdown.Item href="https://www.linkedin.com/in/michaelhcausey/">LinkedIn</NavDropdown.Item>
-                    <NavDropdown.Item href="https://github.com/cauz825">GitHub</NavDropdown.Item>
+                    <NavDropdown.Item href="mailto:michaelhcausey@gmail.com" target='_blank' rel='noopener no referrer'>Email</NavDropdown.Item>
+                    <NavDropdown.Item href="https://www.linkedin.com/in/michaelhcausey/" target='_blank' rel='noopener no referrer'>LinkedIn</NavDropdown.Item>
+                    <NavDropdown.Item href="https://github.com/cauz825" target='_blank' rel='noopener no referrer'>GitHub</NavDropdown.Item>
                 </NavDropdown>
                 </Nav>
             </Navbar.Collapse>
