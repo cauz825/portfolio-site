@@ -6,17 +6,20 @@ function HomeCarousel() {
     return(
       <Carousel>
   <Carousel.Item>
-    <img
+    <center>
+      <img
       className="d-block w-100"
       src={Headshot}
       alt="First slide"
       height='800'
-    />
-    <Carousel.Caption>
-      <h3>Welcome to my portfolio site!</h3>
-      {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
-    </Carousel.Caption>
+      />
+      <Carousel.Caption>
+        <h3>Welcome to my portfolio site!</h3>
+        {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
+      </Carousel.Caption>
+    </center>
   </Carousel.Item>
+      
   <Carousel.Item>
     <img
       className="d-block w-100"
