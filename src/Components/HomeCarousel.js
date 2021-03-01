@@ -10,10 +10,11 @@ function HomeCarousel() {
       className="d-block w-100"
       src={Headshot}
       alt="First slide"
+      height='800'
     />
     <Carousel.Caption>
-      <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      <h3>Welcome to my portfolio site!</h3>
+      {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
