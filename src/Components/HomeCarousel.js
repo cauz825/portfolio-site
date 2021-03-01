@@ -1,5 +1,6 @@
 import React from 'react'
 import { Carousel } from 'react-bootstrap'
+import Headshot from '../Images/headshot.jpg'
 
 function HomeCarousel() {
     return(
@@ -7,7 +8,7 @@ function HomeCarousel() {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="d-block w-100"
+      src={Headshot}
       alt="First slide"
     />
     <Carousel.Caption>
