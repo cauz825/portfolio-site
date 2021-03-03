@@ -14,7 +14,7 @@ function HomeCarousel() {
       height='800'
       />
       <Carousel.Caption>
-        <h3>Welcome to my portfolio site!</h3>
+        <h3>Welcome to my portfolio site</h3>
         {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
       </Carousel.Caption>
     </center>
