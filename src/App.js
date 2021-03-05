@@ -12,7 +12,7 @@ function App() {
     <BrowserRouter>
       <div>
         <Navi />
-          <Route path="/home" component={HomeCarousel} />
+          <Route exact path="/" component={HomeCarousel} />
           <Route path="/resume" component={Resume} />
           <Route path="/about" component={About} />
           <Route path='/demo1' component={Demo1} />
