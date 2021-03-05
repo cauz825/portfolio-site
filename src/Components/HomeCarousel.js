@@ -12,6 +12,7 @@ function HomeCarousel() {
       src={Headshot}
       alt="First slide"
       height='800'
+      width='400'
       />
       <Carousel.Caption>
         <h3>Welcome to my portfolio site</h3>

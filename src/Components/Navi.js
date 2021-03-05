@@ -4,11 +4,10 @@ import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 function Navi() {
     return(
         <Navbar bg="light" expand="lg">
-            <Navbar.Brand href="/home">Michael Causey</Navbar.Brand>
+            <Navbar.Brand href="/">Michael Causey</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="container-fluid">
-                <Nav.Link href="/home">Home</Nav.Link>
                 <Nav.Link href="/resume">Resume</Nav.Link>
                 <Nav.Link href="/about">About Michael</Nav.Link>
                 <NavDropdown title='Project Demos' id='basic-nav-dropdown'>
