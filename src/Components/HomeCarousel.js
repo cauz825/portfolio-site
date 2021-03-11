@@ -16,7 +16,6 @@ function HomeCarousel() {
 
       <Carousel.Caption>
         <h3>Welcome to my portfolio site</h3>
-        {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
       </Carousel.Caption>
     </center>
   </Carousel.Item>
@@ -33,7 +32,6 @@ function HomeCarousel() {
 
     <Carousel.Caption>
       <h3>A Little About Me</h3>
-      {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
