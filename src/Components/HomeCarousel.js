@@ -11,7 +11,8 @@ function HomeCarousel() {
       <img
       className="d-block w-98"
       src={Laptop}
-      alt="First slide" />
+      alt="First slide" 
+      height='600' />
 
       <Carousel.Caption>
         <h3>Welcome to my portfolio site</h3>
@@ -26,7 +27,8 @@ function HomeCarousel() {
         className="d-block w-98"
         src={Headshot}
         alt="Second slide" 
-        href='/about' />
+        href='/about' 
+        height='600' />
     </center> 
 
     <Carousel.Caption>
