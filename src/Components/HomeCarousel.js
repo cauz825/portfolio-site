@@ -34,6 +34,20 @@ function HomeCarousel() {
       <h3>A Little About Me</h3>
     </Carousel.Caption>
   </Carousel.Item>
+
+  <Carousel.Item>
+    <center>
+      <img
+        className="d-block w-98"
+        src=""
+        alt="Second slide" 
+        height='600' />
+    </center> 
+
+    <Carousel.Caption>
+      <h3>A Little About Me</h3>
+    </Carousel.Caption>
+  </Carousel.Item>
 </Carousel>
     )
 }
