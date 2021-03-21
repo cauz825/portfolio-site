@@ -15,7 +15,7 @@ function HomeCarousel() {
       height='600' />
 
       <Carousel.Caption>
-        <h3>Welcome to my portfolio site</h3>
+        <h3>Michael's Portfolio Site</h3>
       </Carousel.Caption>
     </center>
   </Carousel.Item>
@@ -45,7 +45,7 @@ function HomeCarousel() {
     </center> 
 
     <Carousel.Caption>
-      <h3>A Little About Me</h3>
+      <h3>Contact Me</h3>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
